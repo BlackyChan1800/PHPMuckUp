@@ -37,3 +37,17 @@ header .right-nav .links{
     display:inline-block;
     margin: 10px;
 }
+
+.User_form {
+    float: left;
+    margin: 2% 50%;
+}
+
+.User_form input {
+    float: center;
+}
+
+.submitbutton {
+    float: center bottom;
+    margin: 20% 50%;
+}

@@ -32,7 +32,7 @@
     </header>
     </section>
     <section>
-        <form action="contactus.php" method="get">
+        <form action="contactus.php" class="User_form" method="post">
             First Name: <input type="text" name="FirstName">
             <br>
             Last Name: <input type="text" name="LastName">
@@ -40,18 +40,21 @@
             Email: <input type="text" name="Email">
             <br>
             Desription: <input type="text" name="Desription">
-            <br>
-            <input type="submit">
+            <section class="submitbutton">
+                <input type="submit">
+            </section>
             <br>
         </form>
+        <?php if(isset($_POST['FirstName']) && isset($_POST['LastName']) && isset($_POST['Email']) && isset($_POST['Description'])): ?>
         <br>
-        <?php echo $_GET["FirstName"]?>
+        <?php echo $_POST["FirstName"]; ?>
         <br>
-        <?php echo $_GET["LastName"]?>
+        <?php echo $_POST["LastName"]; ?>
         <br>
-        <?php echo $_GET["Email"]?>
+        <?php echo $_POST["Email"]; ?>
         <br>
-        <?php echo $_GET["Desription"]?>
+        <?php echo $_POST["Desription"]; ?>
+        <?php endif; ?>
     </section>
 
 </body>
