@@ -31,6 +31,28 @@
         </ul>
     </header>
     </section>
+    <section>
+        <form action="contactus.php" method="get">
+            First Name: <input type="text" name="FirstName">
+            <br>
+            Last Name: <input type="text" name="LastName">
+            <br>
+            Email: <input type="text" name="Email">
+            <br>
+            Desription: <input type="text" name="Desription">
+            <br>
+            <input type="submit">
+            <br>
+        </form>
+        <br>
+        <?php echo $_GET["FirstName"]?>
+        <br>
+        <?php echo $_GET["LastName"]?>
+        <br>
+        <?php echo $_GET["Email"]?>
+        <br>
+        <?php echo $_GET["Desription"]?>
+    </section>
 
 </body>
 
