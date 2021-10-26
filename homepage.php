@@ -10,27 +10,31 @@
 </head>
 
 <body>
-    
+
     <section>
-    <header>
-        <ul class="left-nav">
-            <li>
-                <a href="homepage.php"><img src="images/logo.gif" height="50px"></a>
-            </li>
-        </ul>
-        <ul class="right-nav">
-            <ul class="links">
+        <header>
+            <ul class="left-nav">
                 <li>
-                    <a href="https://github.com/BlackyChan1800/PHPMuckUp">
-                    <img src="images/pngegg.png" height="25px" > </a>
+                    <a href="homepage.php"><img src="images/logo.gif" height="50px"></a>
                 </li>
             </ul>
-            <li><a href="homepage.php"> <?php echo "Home" ?> </a></li>
-            <li><a href="sub pages/aboutus.php"> <?php echo "About Us" ?> </a></li>
-            <li><a href="sub pages/contactus.php"> <?php echo "Contact Us" ?> </a></li>
-        </ul>
-    </header>
+            <ul class="right-nav">
+                <ul class="links">
+                    <li>
+                        <a href="https://github.com/BlackyChan1800/PHPMuckUp">
+                            <img src="images/pngegg.png" height="25px"> </a>
+                    </li>
+                </ul>
+                <li><a href="homepage.php"> <?php echo "Home" ?> </a></li>
+                <li><a href="sub pages/aboutus.php"> <?php echo "About Us" ?> </a></li>
+                <li><a href="sub pages/contactus.php"> <?php echo "Contact Us" ?> </a></li>
+            </ul>
+        </header>
     </section>
+
+    <section class="section1"></section>
+    <div class="loading-text"> 0% </div>
+    <script src="homepage.js"></script>
 
 </body>
 

@@ -1,12 +1,19 @@
 * {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times,
+        Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
     margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
 }
 
 header {
-    background: rgba(50,0,75,1.5);
+    background: rgba(50, 0, 75, 1.5);
     height: 70px;
+    width: 100vw;
 }
 
 header ul li {
@@ -18,7 +25,7 @@ header ul li a {
     text-decoration: none;
 }
 
-header .right-nav .links{
+header .right-nav .links {
     float: left;
 }
 
@@ -34,6 +41,23 @@ header .right-nav .links{
 }
 
 .right-nav li {
-    display:inline-block;
+    display: inline-block;
     margin: 10px;
+}
+
+.section1 {
+    background: url("images/naruto-on-netflix.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    margin: 50vh 50vw;
+    font-size: 50px;
+    color: orangered;
 }
