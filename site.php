@@ -9,6 +9,23 @@
 </head>
 
 <body>
+    <section>
+    <header>
+        <ul class="left-nav">
+            <li>
+                <a href="site.php"><img src="images/logo.gif" height="50px"></a>
+            </li>
+        </ul>
+        <ul class="right-nav">
+            <ul class="links">
+                <li><a href="https://github.com/BlackyChan1800/WebPrac"><img src="images/pngegg.png" height="50px"></a></li>
+            </ul>
+            <li><a href="site.php">Home</a></li>
+            <li><a href="/sub pages/aboutus.php">About Us</a></li>
+            <li><a href="/sub pages/contactus.php">Contact Us</a></li>
+        </ul>
+    </header>
+    </section>
 
     <?php
 
