@@ -15,7 +15,7 @@
     <header>
         <ul class="left-nav">
             <li>
-                <a href="../homepage.php"><img src="../images/logo.gif" height="50px"></a>
+                <a href="../homepage.html"><img src="../images/logo.gif" height="50px"></a>
             </li>
         </ul>
         <ul class="right-nav">
@@ -25,7 +25,7 @@
                     <img src="../images/pngegg.png" height="25px"> </a>
                 </li>
             </ul>
-            <li><a href="../homepage.php"> <?php echo "Home" ?> </a></li>
+            <li><a href="../homepage.html"> <?php echo "Home" ?> </a></li>
             <li><a href="aboutus.php"> <?php echo "About Us" ?> </a></li>
             <li><a href="contactus.php"> <?php echo "Contact Us" ?> </a></li>
         </ul>
