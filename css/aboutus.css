@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgba(50,0,75,1.5);
+    height: 70px;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+header .right-nav .links{
+    float: left;
+}
+
+.left-nav {
+    float: left;
+    margin: 10px;
+    padding: 0px;
+}
+
+.right-nav {
+    float: right;
+    margin: 10px;
+}
+
+.right-nav li {
+    display:inline-block;
+    margin: 10px;
+}
