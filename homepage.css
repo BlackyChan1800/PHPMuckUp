@@ -14,12 +14,10 @@ header {
     background: rgba(50, 0, 75, 1.5);
     height: 70px;
     width: 100vw;
-    margin: 0;
-    padding: 0;
 }
 
 header ul {
-    padding-inline-start: 0;
+    padding-inline-start: 0px;
 }
 
 header ul li {
@@ -29,18 +27,31 @@ header ul li {
 header ul li a {
     color: rgb(255, 0, 0);
     text-decoration: none;
-    margin: 0;
 }
 
 header .right-nav .links {
     float: left;
 }
 
+@media all and (max-width:30em) {
+    header  {
+      float: right;
+      display: inline-flex;
+    }
+  }
+
 .left-nav {
     float: left;
-    margin: 10px;
+    margin: 10px 0px 0px 5px;
     padding: 0px;
 }
+
+@media all and (max-width:30em) {
+    .left-nav  {
+      float: left;
+      display: inline-flex;
+    }
+  }
 
 .right-nav {
     float: right;
@@ -48,14 +59,21 @@ header .right-nav .links {
 }
 
 .right-nav li {
-    display: inline-block;
+    display: inline-flex;
     margin: 10px;
 }
 
 .right-nav .links {
-    display: inline-block;
+    display: inline-flex;
     margin: 0 50px;
 }
+
+@media all and (max-width:30em) {
+    .links  {
+      float: right;
+      display: inline-flex;
+    }
+  }
 
 .links li {
     margin-left: -10px;
