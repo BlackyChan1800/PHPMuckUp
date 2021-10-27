@@ -91,13 +91,6 @@ header .right-nav .links {
     filter: blur(0px);
 }
 
-@media all and (max-width:30em) {
-    .section1 {
-        display: block;
-        margin: auto;
-    }
-}
-
 
 .loading-text {
     margin: calc(0vh - 70px) calc(50vw - 10px);
