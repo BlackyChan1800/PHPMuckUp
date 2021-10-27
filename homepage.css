@@ -59,22 +59,22 @@ header .right-nav .links {
 }
 
 .loading-text {
-    margin: calc(50vh - 70px) calc(50vw - 10px);
+    margin: calc(0vh - 70px) calc(50vw - 10px);
     font-size: 50px;
     color: orangered;
 }
 
 button {
     padding: 0;
-    margin: 50vh;
+    margin: 50%;
     width: 100px;
     height: 100px;
     text-align: center;
-    position: relative;
+    position: center;
     transition-duration: 0.7s;
     background: url("images/sharingan.png");
     background-size: cover;
-    border: none; 
+    border: none;
 }
 
 button:hover {
@@ -92,4 +92,25 @@ button:active {
         display: block;
         margin: 0.4em auto;
     }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    height: 50vh;
+    position: relative;
+    border: none;
+}
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50vw;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

@@ -1,3 +1,4 @@
+//Background Blur with Percentage Text
 const loadText = document.querySelector('.loading-text')
 const section1 = document.querySelector('.section1')
 
@@ -21,3 +22,8 @@ function blurring() {
 
     section1.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 }
+
+//Sharingan Button Opacity due to Pecentage Text Increase
+// const loadButton = document.querySelector('.center')
+
+// loadButton.style.opacity = loadText.style.opacity
