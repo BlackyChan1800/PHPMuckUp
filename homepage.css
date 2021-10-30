@@ -13,7 +13,7 @@ body {
 header {
     background: rgba(50, 0, 75, 1.5);
     height: 70px;
-    width: 100vw;
+    width: 100%;
 }
 
 header ul {
