@@ -8,6 +8,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -56,4 +57,59 @@ header .right-nav .links {
 
 .links li {
     margin-left: -10px;
+}
+
+.section1 {
+    background: url(images/leaf-village.gif) no-repeat center/cover;
+    position: absolute center/cover;
+    top: 70px;
+    width: 100vw;
+    height: 100vh;
+    transform: 50%;
+}
+
+.narutosprite {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background: transparent url(images/kyubi_naruto_run_spritesheet.png) 0 0 no-repeat;
+    width: 86.375px;
+    height: 82px;
+    transform: translate(-50%, -50%) scale(2);
+    margin: 2em auto;
+    animation: run 0.75s steps(6) infinite;
+}
+
+@keyframes run {
+    100% {
+        background-position: -524.75px, 0;
+    }
+}
+
+.Progress-bar {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 3em;
+    background-color: rgb(1, 1, 1);
+    border-radius: 1.5em;
+    color: orangered;
+}
+
+.Progress-bar::before {
+    content: attr(data-label);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: .5em;
+    top: .5em;
+    bottom: .5em;
+    width: calc(var(--width, 0) * 1%);
+    min-width: 0.5rem;
+    max-width: calc(100% - 2em);
+    background-color: #0892d0;
+    border-radius: 1em;
+    padding: 0.5em;
 }
