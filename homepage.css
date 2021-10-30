@@ -10,6 +10,11 @@ body {
     margin: 0;
 }
 
+section header {
+    width: 100vw;
+    height: 70px;
+}
+
 header {
     background: rgba(50, 0, 75, 1.5);
     height: 70px;
