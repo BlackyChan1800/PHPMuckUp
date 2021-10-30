@@ -33,25 +33,11 @@ header .right-nav .links {
     float: left;
 }
 
-@media all and (max-width:30em) {
-    header  {
-      float: right;
-      display: inline-flex;
-    }
-  }
-
 .left-nav {
     float: left;
     margin: 10px 0px 0px 5px;
     padding: 0px;
 }
-
-@media all and (max-width:30em) {
-    .left-nav  {
-      float: left;
-      display: inline-flex;
-    }
-  }
 
 .right-nav {
     float: right;
@@ -65,15 +51,8 @@ header .right-nav .links {
 
 .right-nav .links {
     display: inline-flex;
-    margin: 0 50px;
+    margin: 0 5px;
 }
-
-@media all and (max-width:30em) {
-    .links  {
-      float: right;
-      display: inline-flex;
-    }
-  }
 
 .links li {
     margin-left: -10px;
@@ -81,7 +60,6 @@ header .right-nav .links {
 
 .section1 {
     background: url("images/naruto-on-netflix.jpg") no-repeat center center/cover;
-    background-position: 0px 70px;
     position: absolute;
     top: -30px;
     left: -30px;
@@ -94,17 +72,17 @@ header .right-nav .links {
 
 .loading-text {
     margin: calc(0vh - 70px) calc(50vw - 10px);
+    top: 40%;
+    left: 100%;
     font-size: 50px;
     color: orangered;
 }
 
 button {
-    padding: 0;
-    margin: 50% 0px 0 50px;
+    top: 40%;
+    left: 50%;
     width: 100px;
     height: 100px;
-    text-align: center;
-    position: center;
     transition-duration: 0.7s;
     background: url("images/sharingan.png");
     background-size: cover;
