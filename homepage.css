@@ -13,7 +13,7 @@ body {
 header {
     background: rgba(50, 0, 75, 1.5);
     height: 70px;
-    width: 100%;
+    width: 100vw;
 }
 
 header ul {
@@ -61,10 +61,10 @@ header .right-nav .links {
 .section1 {
     background: url("images/naruto-on-netflix.jpg") no-repeat center center/cover;
     position: absolute;
-    top: -30px;
+    top: 70px;
     left: -30px;
     width: calc(100vw + 60px);
-    height: calc(100vh + 60px);
+    height: calc(100vh + 140px);
     z-index: -1;
     filter: blur(0px);
 }
